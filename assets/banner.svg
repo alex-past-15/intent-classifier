@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+  <title id="title">Intent Lab</title>
+  <desc id="desc">Классификация банковских обращений. 77 тем, две модели, проверка уверенности.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#102c34"/><stop offset="1" stop-color="#174c4d"/></linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M 32 0 L 0 0 0 32" fill="none" stroke="#a6e3cb" stroke-opacity=".045"/></pattern>
+  </defs>
+  <rect width="1200" height="340" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="340" rx="24" fill="url(#grid)"/>
+  <g font-family="Segoe UI,Arial,sans-serif">
+    <rect x="52" y="44" width="8" height="8" rx="4" fill="#b3efc9"/>
+    <text x="74" y="53" fill="#b3efc9" font-size="13" letter-spacing="3">NLP / TEXT CLASSIFICATION</text>
+    <text x="48" y="138" fill="#f5fbf8" font-size="66" font-weight="700" letter-spacing="-2">Intent Lab</text>
+    <text x="52" y="182" fill="#bfd4cf" font-size="23">Каждому обращению - своя тема.</text>
+    <text x="52" y="217" fill="#91b4af" font-size="16">TF-IDF + Logistic Regression · BERT Tiny</text>
+    <g font-size="13" fill="#d0e9dd">
+      <rect x="52" y="258" width="96" height="34" rx="17" fill="#25514f"/><text x="73" y="280">77 тем</text>
+      <rect x="160" y="258" width="116" height="34" rx="17" fill="#25514f"/><text x="180" y="280">2 модели</text>
+      <rect x="288" y="258" width="135" height="34" rx="17" fill="#25514f"/><text x="308" y="280">BANKING77</text>
+    </g>
+    <path d="M820 165 H864 V104 H913 M864 165 V245 H913" fill="none" stroke="#719e93" stroke-width="2"/>
+    <rect x="660" y="125" width="166" height="82" rx="15" fill="#214749" stroke="#43716b"/>
+    <path d="M684 150 H779 M684 166 H760 M684 182 H746" stroke="#91b4af" stroke-width="4" stroke-linecap="round"/>
+    <rect x="912" y="65" width="238" height="80" rx="15" fill="#b3efc9"/>
+    <text x="934" y="98" fill="#173e35" font-size="13" letter-spacing="1">ТЕМА ОПРЕДЕЛЕНА</text>
+    <text x="934" y="122" fill="#173e35" font-size="17" font-weight="600">Принять ответ</text>
+    <rect x="912" y="205" width="238" height="80" rx="15" fill="#234e4b" stroke="#628b7f"/>
+    <text x="934" y="238" fill="#acc9be" font-size="13" letter-spacing="1">ЕСТЬ СОМНЕНИЯ</text>
+    <text x="934" y="262" fill="#edf5ef" font-size="17" font-weight="600">Проверить человеку</text>
+  </g>
+</svg>
