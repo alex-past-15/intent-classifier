@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+data/
+artifacts/
+*.log
+.ipynb_checkpoints/
+*.part
+*.tmp
+*.bak

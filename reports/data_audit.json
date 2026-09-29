@@ -1,0 +1,31 @@
+{
+  "dataset": "BANKING77",
+  "revision": "57ec275d8078af65b7731c2a98be812d844a6d6b",
+  "license": "CC-BY-4.0",
+  "language": "English",
+  "source": {
+    "train": {
+      "url": "https://raw.githubusercontent.com/PolyAI-LDN/task-specific-datasets/57ec275d8078af65b7731c2a98be812d844a6d6b/banking_data/train.csv",
+      "sha256": "b06e26ac675513959a63135f11b94ea7786ed02da65db93a5650d8838cbc664b",
+      "rows": 10003
+    },
+    "test": {
+      "url": "https://raw.githubusercontent.com/PolyAI-LDN/task-specific-datasets/57ec275d8078af65b7731c2a98be812d844a6d6b/banking_data/test.csv",
+      "sha256": "d12d6e3bc4c3103966ae786dc435913c0c563dfa328f5a3646d0e62cfeeb474d",
+      "rows": 3080
+    }
+  },
+  "splits": {
+    "train": 6962,
+    "validation": 1492,
+    "calibration": 1492,
+    "test": 3080
+  },
+  "classes": 77,
+  "removed_from_train": 57,
+  "conflicting_train_keys": 1,
+  "test_duplicate_keys": 4,
+  "normalization": "NFKC, casefold, punctuation/whitespace normalization",
+  "limitations": "Near-duplicate paraphrases are not removed. Official test rows are preserved.",
+  "seed": 42
+}
